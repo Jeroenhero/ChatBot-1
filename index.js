@@ -11,7 +11,7 @@ const dependencyGraph = {
     'commandList': commandList,
     'https': require('https'),
     'child_process': require('child_process'),
-    'fs': fs
+    'fs': fs,
 };
 const commandFiles = fs.readdirSync('./src/Command');
 for (const key in commandFiles) {
